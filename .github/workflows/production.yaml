@@ -22,7 +22,7 @@ jobs:
           aws-region: us-east-1
       - name: set up node js
         uses: actions/setup-node@v2
-        with:
+        with: 
           node-version: 14
       - name: build site
         run: |
